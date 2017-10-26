@@ -1,344 +1,148 @@
-Oct 22, 2017 6:26:24 PM display.DisplayManager start
+Oct 26, 2017 3:42:31 PM display.DisplayManager start
 INFO: Set Display Mode:960*640
-Oct 22, 2017 6:26:25 PM display.DisplayManager start
+Oct 26, 2017 3:42:32 PM display.DisplayManager start
 INFO: Create Display
-Oct 22, 2017 6:26:25 PM display.DisplayManager start
+Oct 26, 2017 3:42:32 PM display.DisplayManager start
 INFO: Initialize OpenGL
-Oct 22, 2017 6:26:27 PM game.GameState registerId
+Oct 26, 2017 3:42:34 PM game.GameState registerId
 INFO: This game state is registered as : ID 0
-Oct 22, 2017 6:26:27 PM game.GameManager startGame
+Oct 26, 2017 3:42:34 PM game.GameManager startGame
 INFO: Start Game State at : ID 0
-Oct 22, 2017 6:26:34 PM game.GameState registerId
+Oct 26, 2017 3:42:45 PM game.GameState registerId
 INFO: This game state is registered as : ID 1
-Oct 22, 2017 6:26:34 PM game.GameManager changeGameState
+Oct 26, 2017 3:42:45 PM game.GameManager changeGameState
 INFO: Change Game State to : ID 1
-Oct 22, 2017 6:26:34 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_NEUTRAL has been loaded.
-Oct 22, 2017 6:26:36 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND has been loaded.
-Oct 22, 2017 6:26:36 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_FORWARD_WALK has been loaded.
-Oct 22, 2017 6:26:37 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_DASH has been loaded.
-Oct 22, 2017 6:26:37 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_BACK_STEP has been loaded.
-Oct 22, 2017 6:26:39 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH has been loaded.
-Oct 22, 2017 6:26:39 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_JUMP has been loaded.
-Oct 22, 2017 6:26:39 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_FOR_JUMP has been loaded.
-Oct 22, 2017 6:26:39 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_BACK_JUMP has been loaded.
-Oct 22, 2017 6:26:39 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR has been loaded.
-Oct 22, 2017 6:26:40 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_GUARD has been loaded.
-Oct 22, 2017 6:26:40 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH_GUARD has been loaded.
-Oct 22, 2017 6:26:40 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_GUARD has been loaded.
-Oct 22, 2017 6:26:40 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_GUARD_RECOV has been loaded.
-Oct 22, 2017 6:26:40 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH_GUARD_RECOV has been loaded.
-Oct 22, 2017 6:26:41 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_GUARD_RECOV has been loaded.
-Oct 22, 2017 6:26:41 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_RECOV has been loaded.
-Oct 22, 2017 6:26:41 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH_RECOV has been loaded.
-Oct 22, 2017 6:26:42 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_RECOV has been loaded.
-Oct 22, 2017 6:26:43 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CHANGE_DOWN has been loaded.
-Oct 22, 2017 6:26:43 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_DOWN has been loaded.
-Oct 22, 2017 6:26:43 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_RISE has been loaded.
-Oct 22, 2017 6:26:43 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_LANDING has been loaded.
-Oct 22, 2017 6:26:44 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_THROW_A has been loaded.
-Oct 22, 2017 6:26:44 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_THROW_B has been loaded.
-Oct 22, 2017 6:26:44 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_THROW_HIT has been loaded.
-Oct 22, 2017 6:26:45 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_THROW_SUFFER has been loaded.
-Oct 22, 2017 6:26:45 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_A has been loaded.
-Oct 22, 2017 6:26:45 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_B has been loaded.
-Oct 22, 2017 6:26:46 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH_A has been loaded.
-Oct 22, 2017 6:26:46 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH_B has been loaded.
-Oct 22, 2017 6:26:46 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_A has been loaded.
-Oct 22, 2017 6:26:47 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_B has been loaded.
-Oct 22, 2017 6:26:47 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_DA has been loaded.
-Oct 22, 2017 6:26:47 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_DB has been loaded.
-Oct 22, 2017 6:26:48 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_FA has been loaded.
-Oct 22, 2017 6:26:49 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_FB has been loaded.
-Oct 22, 2017 6:26:49 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH_FA has been loaded.
-Oct 22, 2017 6:26:50 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_CROUCH_FB has been loaded.
-Oct 22, 2017 6:26:51 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_FA has been loaded.
-Oct 22, 2017 6:26:51 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_FB has been loaded.
-Oct 22, 2017 6:26:51 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_UA has been loaded.
-Oct 22, 2017 6:26:51 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_UB has been loaded.
-Oct 22, 2017 6:26:52 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_D_DF_FA has been loaded.
-Oct 22, 2017 6:26:52 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_D_DF_FB has been loaded.
-Oct 22, 2017 6:26:52 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_F_D_DFA has been loaded.
-Oct 22, 2017 6:26:52 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_F_D_DFB has been loaded.
-Oct 22, 2017 6:26:53 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_D_DB_BA has been loaded.
-Oct 22, 2017 6:26:53 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_D_DB_BB has been loaded.
-Oct 22, 2017 6:26:53 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_D_DF_FA has been loaded.
-Oct 22, 2017 6:26:53 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_D_DF_FB has been loaded.
-Oct 22, 2017 6:26:53 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_F_D_DFA has been loaded.
-Oct 22, 2017 6:26:53 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_F_D_DFB has been loaded.
-Oct 22, 2017 6:26:54 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_D_DB_BA has been loaded.
-Oct 22, 2017 6:26:54 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_AIR_D_DB_BB has been loaded.
-Oct 22, 2017 6:26:54 PM image.ImageContainer loadCharacterFile
-INFO: Image : LUD_STAND_D_DF_FC has been loaded.
-Oct 22, 2017 6:26:54 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:50 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_NEUTRAL has been loaded.
-Oct 22, 2017 6:26:55 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND has been loaded.
-Oct 22, 2017 6:26:55 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_FORWARD_WALK has been loaded.
-Oct 22, 2017 6:26:56 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_DASH has been loaded.
-Oct 22, 2017 6:26:56 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_BACK_STEP has been loaded.
-Oct 22, 2017 6:26:57 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH has been loaded.
-Oct 22, 2017 6:26:57 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_JUMP has been loaded.
-Oct 22, 2017 6:26:57 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_FOR_JUMP has been loaded.
-Oct 22, 2017 6:26:57 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:51 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_BACK_JUMP has been loaded.
-Oct 22, 2017 6:26:58 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR has been loaded.
-Oct 22, 2017 6:26:58 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_GUARD has been loaded.
-Oct 22, 2017 6:26:58 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_GUARD has been loaded.
-Oct 22, 2017 6:26:58 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_GUARD has been loaded.
-Oct 22, 2017 6:26:59 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_GUARD_RECOV has been loaded.
-Oct 22, 2017 6:26:59 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_GUARD_RECOV has been loaded.
-Oct 22, 2017 6:26:59 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_GUARD_RECOV has been loaded.
-Oct 22, 2017 6:26:59 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_RECOV has been loaded.
-Oct 22, 2017 6:27:00 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:52 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_RECOV has been loaded.
-Oct 22, 2017 6:27:00 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_RECOV has been loaded.
-Oct 22, 2017 6:27:00 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CHANGE_DOWN has been loaded.
-Oct 22, 2017 6:27:00 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_DOWN has been loaded.
-Oct 22, 2017 6:27:01 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_RISE has been loaded.
-Oct 22, 2017 6:27:01 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_LANDING has been loaded.
-Oct 22, 2017 6:27:01 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_A has been loaded.
-Oct 22, 2017 6:27:01 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_B has been loaded.
-Oct 22, 2017 6:27:01 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:53 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_HIT has been loaded.
-Oct 22, 2017 6:27:02 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_SUFFER has been loaded.
-Oct 22, 2017 6:27:03 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_A has been loaded.
-Oct 22, 2017 6:27:03 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_B has been loaded.
-Oct 22, 2017 6:27:03 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_A has been loaded.
-Oct 22, 2017 6:27:03 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_B has been loaded.
-Oct 22, 2017 6:27:04 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_A has been loaded.
-Oct 22, 2017 6:27:04 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_B has been loaded.
-Oct 22, 2017 6:27:04 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:54 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_DA has been loaded.
-Oct 22, 2017 6:27:04 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:55 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_DB has been loaded.
-Oct 22, 2017 6:27:05 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:55 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_FA has been loaded.
-Oct 22, 2017 6:27:05 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:55 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_FB has been loaded.
-Oct 22, 2017 6:27:06 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:55 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_FA has been loaded.
-Oct 22, 2017 6:27:07 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:56 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_FB has been loaded.
-Oct 22, 2017 6:27:07 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:56 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_FA has been loaded.
-Oct 22, 2017 6:27:08 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:56 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_FB has been loaded.
-Oct 22, 2017 6:27:08 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:56 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_UA has been loaded.
-Oct 22, 2017 6:27:08 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:57 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_UB has been loaded.
-Oct 22, 2017 6:27:09 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:57 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DF_FA has been loaded.
-Oct 22, 2017 6:27:09 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:57 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DF_FB has been loaded.
-Oct 22, 2017 6:27:09 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:57 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_F_D_DFA has been loaded.
-Oct 22, 2017 6:27:09 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:57 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_F_D_DFB has been loaded.
-Oct 22, 2017 6:27:10 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:58 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DB_BA has been loaded.
-Oct 22, 2017 6:27:10 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:58 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DB_BB has been loaded.
-Oct 22, 2017 6:27:10 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:58 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DF_FA has been loaded.
-Oct 22, 2017 6:27:10 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:58 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DF_FB has been loaded.
-Oct 22, 2017 6:27:10 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:59 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_F_D_DFA has been loaded.
-Oct 22, 2017 6:27:11 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:59 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_F_D_DFB has been loaded.
-Oct 22, 2017 6:27:11 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:59 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DB_BA has been loaded.
-Oct 22, 2017 6:27:11 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:42:59 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DB_BB has been loaded.
-Oct 22, 2017 6:27:11 PM image.ImageContainer loadCharacterFile
+Oct 26, 2017 3:43:00 PM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DF_FC has been loaded.
-Oct 22, 2017 6:27:11 PM gamestate.Play setting
+Oct 26, 2017 3:43:00 PM gamestate.Play setting
 INFO: 2,
-Oct 22, 2017 6:27:11 PM gamestate.Play setting
+Oct 26, 2017 3:43:00 PM gamestate.Play setting
 INFO: 2,
-Oct 22, 2017 6:27:11 PM gamestate.Play setting
-INFO: Jenja,
-Oct 22, 2017 6:27:11 PM gamestate.Play setting
-INFO: WhoMk3,
-Oct 22, 2017 6:27:11 PM gamestate.Play setting
-INFO: LUD,
-Oct 22, 2017 6:27:11 PM gamestate.Play setting
-INFO: ZEN,
-Oct 22, 2017 6:27:12 PM game.GameState registerId
-INFO: This game state is registered as : ID 2
-Oct 22, 2017 6:27:12 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 2
-Oct 22, 2017 6:30:55 PM game.GameState registerId
-INFO: This game state is registered as : ID 3
-Oct 22, 2017 6:30:55 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 3
-Oct 22, 2017 6:31:00 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 2
-Oct 22, 2017 6:31:00 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 1
-Oct 22, 2017 6:31:01 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 0
-Oct 22, 2017 6:31:07 PM game.GameState registerId
-INFO: This game state is registered as : ID 1
-Oct 22, 2017 6:31:07 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 1
-Oct 22, 2017 6:31:07 PM gamestate.Play setting
-INFO: 2,
-Oct 22, 2017 6:31:07 PM gamestate.Play setting
-INFO: 2,
-Oct 22, 2017 6:31:07 PM gamestate.Play setting
+Oct 26, 2017 3:43:00 PM gamestate.Play setting
 INFO: RandomAI,
-Oct 22, 2017 6:31:07 PM gamestate.Play setting
-INFO: WhoMk3,
-Oct 22, 2017 6:31:07 PM gamestate.Play setting
-INFO: LUD,
-Oct 22, 2017 6:31:07 PM gamestate.Play setting
+Oct 26, 2017 3:43:00 PM gamestate.Play setting
+INFO: Poring,
+Oct 26, 2017 3:43:00 PM gamestate.Play setting
 INFO: ZEN,
-Oct 22, 2017 6:31:08 PM game.GameState registerId
-INFO: This game state is registered as : ID 2
-Oct 22, 2017 6:31:08 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 2
-Oct 22, 2017 6:31:42 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 1
-Oct 22, 2017 6:31:42 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 0
-Oct 22, 2017 6:31:49 PM game.GameState registerId
-INFO: This game state is registered as : ID 1
-Oct 22, 2017 6:31:49 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 1
-Oct 22, 2017 6:31:49 PM gamestate.Play setting
-INFO: 2,
-Oct 22, 2017 6:31:49 PM gamestate.Play setting
-INFO: 2,
-Oct 22, 2017 6:31:49 PM gamestate.Play setting
-INFO: Jenja,
-Oct 22, 2017 6:31:49 PM gamestate.Play setting
-INFO: LekAI,
-Oct 22, 2017 6:31:49 PM gamestate.Play setting
-INFO: LUD,
-Oct 22, 2017 6:31:49 PM gamestate.Play setting
+Oct 26, 2017 3:43:00 PM gamestate.Play setting
 INFO: ZEN,
-Oct 22, 2017 6:31:50 PM game.GameState registerId
+Oct 26, 2017 3:43:00 PM game.GameState registerId
 INFO: This game state is registered as : ID 2
-Oct 22, 2017 6:31:50 PM game.GameManager changeGameState
+Oct 26, 2017 3:43:00 PM game.GameManager changeGameState
 INFO: Change Game State to : ID 2
-Oct 22, 2017 6:33:16 PM game.GameManager changeGameState
+Oct 26, 2017 3:43:09 PM game.GameManager changeGameState
 INFO: Change Game State to : ID 1
-Oct 22, 2017 6:33:16 PM game.GameManager changeGameState
+Oct 26, 2017 3:43:09 PM game.GameManager changeGameState
 INFO: Change Game State to : ID 0
-Oct 22, 2017 6:33:21 PM game.GameState registerId
-INFO: This game state is registered as : ID 1
-Oct 22, 2017 6:33:21 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 1
-Oct 22, 2017 6:33:21 PM gamestate.Play setting
-INFO: 2,
-Oct 22, 2017 6:33:21 PM gamestate.Play setting
-INFO: 2,
-Oct 22, 2017 6:33:21 PM gamestate.Play setting
-INFO: RandomAI,
-Oct 22, 2017 6:33:21 PM gamestate.Play setting
-INFO: LekAI,
-Oct 22, 2017 6:33:21 PM gamestate.Play setting
-INFO: LUD,
-Oct 22, 2017 6:33:21 PM gamestate.Play setting
-INFO: ZEN,
-Oct 22, 2017 6:33:22 PM game.GameState registerId
-INFO: This game state is registered as : ID 2
-Oct 22, 2017 6:33:22 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 2
-Oct 22, 2017 6:35:48 PM game.GameState registerId
-INFO: This game state is registered as : ID 3
-Oct 22, 2017 6:35:48 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 3
-Oct 22, 2017 6:35:53 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 2
-Oct 22, 2017 6:35:53 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 1
-Oct 22, 2017 6:35:53 PM game.GameManager changeGameState
-INFO: Change Game State to : ID 0
-Oct 22, 2017 6:35:55 PM display.DisplayManager start
+Oct 26, 2017 3:43:10 PM display.DisplayManager start
 INFO: Close Display
